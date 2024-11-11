@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cucumber-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/curious-java-study" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/java-modern-study" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jpa-study" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lombok-study" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/open-in-view-study" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/security-study" vcs="Git" />
+  </component>
+</project>
