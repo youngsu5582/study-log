@@ -1,0 +1,24 @@
+[submodule "lombok-study"]
+	path = lombok-study
+	url = https://github.com/youngsu5582/lombok-study
+	branch = main
+
+[submodule "java-modern-study"]
+	path = java-modern-study
+	url = https://github.com/youngsu5582/java-modern-study
+	branch = main
+
+[submodule "security-study"]
+	path = security-study
+	url = https://github.com/youngsu5582/security-study
+	branch = main
+
+[submodule "curious-java-study"]
+	path = curious-java-study
+	url = https://github.com/youngsu5582/curious-java-study
+	branch = main
+
+[submodule "open-in-view-study"]
+	path = open-in-view-study
+	url = https://github.com/youngsu5582/open-in-view-study.git
+	branch = main
