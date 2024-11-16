@@ -22,3 +22,9 @@
 	path = open-in-view-study
 	url = https://github.com/youngsu5582/open-in-view-study
 	branch = main
+[submodule "jpa-study"]
+	path = jpa-study
+	url = https://github.com/youngsu5582/jpa-study
+[submodule "cucumber-test"]
+	path = cucumber-test
+	url = https://github.com/youngsu5582/cucumber-test
