@@ -20,5 +20,5 @@
 
 [submodule "open-in-view-study"]
 	path = open-in-view-study
-	url = https://github.com/youngsu5582/open-in-view-study.git
+	url = https://github.com/youngsu5582/open-in-view-study
 	branch = main
