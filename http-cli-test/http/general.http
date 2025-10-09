@@ -1,0 +1,39 @@
+@host = http://localhost:3000
+
+###
+
+# 1. 루트 엔드포인트 테스트
+# @name getRoot
+GET {{host}}/
+
+###
+
+# 2. JSON 응답 테스트
+# @name getJsonData
+GET {{host}}/data
+# 응답이 JSON 형식인지 확인하기 위해 Accept 헤더를 명시할 수 있습니다.
+Accept: application/json
+
+###
+
+# 3. POST Echo 테스트
+# @name echoJson
+POST {{host}}/echo
+Content-Type: application/json
+
+{
+ "message": "Hello from httpyac!",
+ "timestamp": "{{$datetime iso8601}}",
+ "data": {
+   "id": 999,
+   "tags": ["test", "echo"]
+ }
+}
+
+###
+
+# 4. 리다이렉트 테스트
+# httpyac은 기본적으로 리다이렉트를 따라갑니다.
+# 최종 목적지인 /data의 응답이 반환됩니다.
+# @name testRedirect
+GET {{host}}/redirect

@@ -1,0 +1,18 @@
+@host = http://localhost:3000
+
+###
+
+# 1. 파일 업로드 테스트
+# @name uploadFile
+POST {{host}}/upload
+Content-Type: multipart/form-data; boundary=boundary
+
+--boundary
+# 서버의 upload.single('myFile')에서 'myFile'이 필드 이름입니다.
+Content-Disposition: form-data; name="myFile"; filename="sample.txt"
+Content-Type: text/plain
+
+# '<' 문자는 뒤따르는 경로의 파일 내용을 본문에 포함하라는 의미입니다.
+# 아래 'sample.txt' 파일을 미리 생성해주세요.
+< ./sample.txt
+--boundary--
