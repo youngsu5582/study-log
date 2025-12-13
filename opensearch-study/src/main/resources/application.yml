@@ -1,0 +1,16 @@
+server:
+  port: 8089
+
+opensearch:
+  client:
+    uris:
+      - http://localhost:9200
+    connection-timeout: 5s
+    socket-timeout: 30s
+  indices:
+    product: products
+
+spring:
+  application:
+    name: opensearch-study
+
